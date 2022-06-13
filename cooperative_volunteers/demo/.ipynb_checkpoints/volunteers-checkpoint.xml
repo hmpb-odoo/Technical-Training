@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record module="volunteer.task" id="oppening">
+            <field name="name">Open shop</field>
+            <field name="description">Opening the shop</field>
+            <field name="start_date">2022-06-07 09:00:00</field>
+            <field name="end_date">2022-06-07 10:00:00</field>
+            <field name="frecuency">daily</field>
+        </record>
+        
+        <record module="volunteer.task" id="sell">
+            <field name="name">Sell</field>
+            <field name="description">Sell things from the shop</field>
+            <field name="start_date">2022-06-07 10:00:00</field>
+            <field name="end_date">2022-06-07 15:00:00</field>
+            <field name="frecuency">daily</field>
+        </record>
+        
+        <record module="volunteer.task" id="closing">
+            <field name="name">Close shop</field>
+            <field name="description">Close the shop</field>
+            <field name="start_date">2022-06-07 15:00:00</field>
+            <field name="end_date">2022-06-07 16:00:00</field>
+            <field name="frecuency">daily</field>
+        </record>
+        
+        <record module="volunteer.task" id="acounting">
+            <field name="name">Count profits</field>
+            <field name="description">Counting all the money maked</field>
+            <field name="start_date">2022-06-07 16:00:00</field>
+            <field name="end_date">2022-06-07 17:00:00</field>
+            <field name="frecuency">twice a week</field>
+        </record>
+    </data>
+</odoo>

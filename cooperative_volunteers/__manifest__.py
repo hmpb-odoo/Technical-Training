@@ -18,12 +18,13 @@
     
     'depends': ['base'],
     
+    'license' : 'OPL-1',
     'data': [
         
     ],
     
    'demo': [
-       
+       'demo/volunteers.xml',
    ],
     
 }
