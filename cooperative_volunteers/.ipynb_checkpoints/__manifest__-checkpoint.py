@@ -20,7 +20,10 @@
     
     'license' : 'OPL-1',
     'data': [
-        
+        'security/security_volunteers.xml',
+        'security/ir.model.access.csv',
+        'views/volenteers_menuitems.xml',
+        'views/task_views.xml',
     ],
     
    'demo': [

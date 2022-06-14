@@ -21,4 +21,4 @@ class Task(models.Model):
                                     ('once a month', 'Once a month'),
                                     ('twice a month', 'Twice a month'),
                                 ])
-    
+    active = fields.Boolean(string = 'Active')

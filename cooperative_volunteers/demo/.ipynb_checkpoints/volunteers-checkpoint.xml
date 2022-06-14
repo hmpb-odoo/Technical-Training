@@ -7,6 +7,7 @@
             <field name="start_date">2022-06-07 09:00:00</field>
             <field name="end_date">2022-06-07 10:00:00</field>
             <field name="frecuency">daily</field>
+            <field name="active">True</field>
         </record>
         
         <record model="volunteer.task" id="sell">
@@ -15,6 +16,7 @@
             <field name="start_date">2022-06-07 10:00:00</field>
             <field name="end_date">2022-06-07 15:00:00</field>
             <field name="frecuency">daily</field>
+            <field name="active">True</field>
         </record>
         
          <record model="volunteer.task" id="close">
@@ -23,6 +25,7 @@
             <field name="start_date">2022-06-07 15:00:00</field>
             <field name="end_date">2022-06-07 16:00:00</field>
             <field name="frecuency">daily</field>
+             <field name="active">True</field>
         </record>
         
     </data>
