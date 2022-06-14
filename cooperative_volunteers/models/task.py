@@ -10,7 +10,7 @@ class Task(models.Model):
     description = fields.Text(string='Description')
     
     start_date = fields.Datetime(string = 'Start date')
-    end_Date = fields.Datetime(string = 'End date')
+    end_date = fields.Datetime(string = 'End date')
     
     frecuency = fields.Selection(string="Frecuency",
                                 selection=[
