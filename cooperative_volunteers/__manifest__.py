@@ -28,7 +28,7 @@
     ],
     
    'demo': [
-       'demo/volunteer_views.xml',
+       'demo/volunteer.xml',
    ],
     
 }
