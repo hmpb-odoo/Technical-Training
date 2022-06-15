@@ -28,7 +28,7 @@
     ],
     
    'demo': [
-       'demo/volunteer.xml',
+       'demo/volunteers.xml',
    ],
     
 }
