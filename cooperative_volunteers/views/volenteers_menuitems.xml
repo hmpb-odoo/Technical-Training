@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        
-        <record model="ir.actions.act_window" id="volunteers_list_action">
+        <record model="ir.actions.act_window" id="task_list_action">
             <field name="name">Task</field>
             <field name="res_model">volunteer.task</field>
             <field name="view_mode">tree,form</field>
@@ -11,9 +10,19 @@
             </field>
         </record>
         
+        <record model="ir.actions.act_window" id="volunteers_list_action">
+            <field name="name">volunteer</field>
+            <field name="res_model">volunteer.volunteer</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create the first volunteer</p>
+            </field>
+        </record>
+
         <menuitem name="Volunteers Task" id="menu_tasks" sequence="1"/>
         <menuitem id="menu_task_sub" name="volunteers task" parent="menu_tasks" sequence="2"/>
-        <menuitem id="menu_tasks_task" name="Tasks" parent="menu_task_sub" sequence="3" action="volunteers_list_action"/>
+        <menuitem id="menu_tasks_task" name="Tasks" parent="menu_task_sub" sequence="3" action="task_list_action"/>
+        <menuitem id="menu_volunteer_volunteer" name="Volunteers" parent="menu_task_sub" sequence="4" action="volunteers_list_action"/>
         
     </data>
 </odoo>

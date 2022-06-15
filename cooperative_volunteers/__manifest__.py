@@ -24,10 +24,11 @@
         'security/ir.model.access.csv',
         'views/volenteers_menuitems.xml',
         'views/task_views.xml',
+        'views/volunteer_views.xml',
     ],
     
    'demo': [
-       'demo/volunteers.xml',
+       'demo/volunteer_views.xml',
    ],
     
 }

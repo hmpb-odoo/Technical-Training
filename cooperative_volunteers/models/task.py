@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
+from unittest.loader import VALID_MODULE_NAME
 from odoo import models, fields, api
+from odoo.exceptions import UserError, ValidationError
 
 class Task(models.Model):
     _name = 'volunteer.task'
@@ -22,3 +24,25 @@ class Task(models.Model):
                                     ('twice a month', 'Twice a month'),
                                 ])
     active = fields.Boolean(string = 'Active')
+
+    state = fields.Selection(string="State",
+                            selection=[
+                                ('draft', 'Draft'),
+                                ('ready', 'Ready'),
+                                ('in progress', 'In progress'),
+                                ('done', 'Done'),
+                            ], default='draft')
+
+    leader = fields.Char(string='Leader', default='')
+
+    volunteer_ids = fields.One2many(comodel_name='volunteer.volunteer',
+                                    inverse_name='task_id',
+                                    string='Volunteer')
+
+    @api.onchange('leader')
+    def _onchanchange_leader(self):
+        if(self.leader == ''):
+            raise UserError('Leader is required')
+        self.state = 'done'
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+            <record model="ir.ui.view" id="volunteer_viwe_form">
+                <field name="name">volunteer.volunteer.form</field>
+                <field name="model">volunteer.volunteer</field>
+                <field name="arch" type="xml">
+                    <form string="Volunteer form">
+                        <sheet>
+                        <h1><field name="name"/></h1>
+                        <group>
+                            <group>
+                                <field name="volunteer_id"/>
+                            </group>
+                            <group>
+                                <field name="task_id"/>
+                                <field name="task"/>
+                            </group>
+                        </group>
+                        </sheet>
+                    </form>
+                </field>
+        </record>
+
+        <record model="ir.ui.view" id="volunteer_viwe_lis">
+            <field name="name">volunteer.task.list</field>
+            <field name="model">volunteer.volunteer</field>
+            <field name="arch" type="xml">
+                <tree string="Volunteer List">
+                    <field name="name"/>
+                    <field name="task"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

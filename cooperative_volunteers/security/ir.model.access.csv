@@ -1,3 +1,5 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 head_volunteer,head volunteer,model_volunteer_task,group_head_volunteer,1,1,1,1
 volunteer,volunteer,model_volunteer_task,,1,1,1,1
+volunteer_admin,volunter volunteer_admin,model_volunteer_volunteer,group_head_volunteer,1,1,1,1
+volunteer_read_all,volunter read all,model_volunteer_volunteer,,1,0,0,0
