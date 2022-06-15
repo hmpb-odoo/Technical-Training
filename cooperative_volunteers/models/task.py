@@ -33,10 +33,10 @@ class Task(models.Model):
                                 ('done', 'Done'),
                             ], default='draft')
 
-    leader = fields.Char(string='Leader', default='')
+    leader = fields.Many2one(comodel_name='volunteer.volunteer',
+                                    string='leader')
 
-    volunteer_ids = fields.One2many(comodel_name='volunteer.volunteer',
-                                    inverse_name='task_id',
+    volunteer_ids = fields.Many2many(comodel_name='volunteer.volunteer',
                                     string='Volunteer')
 
     @api.onchange('leader')

@@ -12,10 +12,6 @@
                             <group>
                                 <field name="volunteer_id"/>
                             </group>
-                            <group>
-                                <field name="task_id"/>
-                                <field name="task"/>
-                            </group>
                         </group>
                         </sheet>
                     </form>
@@ -23,12 +19,11 @@
         </record>
 
         <record model="ir.ui.view" id="volunteer_viwe_lis">
-            <field name="name">volunteer.task.list</field>
+            <field name="name">volunteer.volunteer.list</field>
             <field name="model">volunteer.volunteer</field>
             <field name="arch" type="xml">
                 <tree string="Volunteer List">
                     <field name="name"/>
-                    <field name="task"/>
                 </tree>
             </field>
         </record>
