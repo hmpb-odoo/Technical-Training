@@ -8,3 +8,5 @@ class Volunteer(models.Model):
     _description = 'Volunteer info'
     volunteer_id = fields.Many2one(comodel_name='res.partner', string='Volunteer')
     name = fields.Char(string='Volunteer_name', related='volunteer_id.name')
+
+    tasks_ids = fields.Many2many(comodel_name='volunteer.task', string='Tasks')

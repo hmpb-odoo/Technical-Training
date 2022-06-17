@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="contact_template_inherit">
+            <field name="name">contact.template.inherit.volunteers</field>
+            <field name="model">volunteer.volunteer</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="Tasks">
+                        <field name="tasks_ids">
+                    <page>
+                </xpath>
+        </record>
+    </data>
+</odoo>

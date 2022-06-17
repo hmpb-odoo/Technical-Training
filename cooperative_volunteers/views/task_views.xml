@@ -16,8 +16,9 @@
                             <group>
                                 <field name="frecuency"/>
                                 <group>
-                                
                                 <field name="state"/>
+                                <field name="start_date"/>
+                                <field name="end_date"/>
                             </group>
                             </group>
                         </group>
@@ -25,16 +26,12 @@
                             <page string="description">
                                 <field name="description"/>
                             </page>
-                            <page string="start_date">
-                                <field name="start_date"/>
-                            </page>
-                            <page string="end_date">
-                                <field name="end_date"/>
-                            </page>
                             <page string="volunteer">
                                 <field name="volunteer_ids"/>
                             </page>
-
+                            <page string="requests">
+                                <field name="request_approvals_id"/>
+                            </page>
                         </notebook>
                     </sheet>
                 </form>
@@ -63,6 +60,15 @@
                      <field name="name"/>
                      <field name="description"/>
                  </search>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="task_view_gantt">
+            <field name="name">volunteer.task.gantt</field>
+            <field name="model">volunteer.task</field>
+            <field name="arch" type="xml">
+                <gantt date_start="start_date" date_stop="end_date" default_group_by="leader" default_scale="day"
+                color="leader"/>
             </field>
         </record>
     </data>

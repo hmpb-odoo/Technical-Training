@@ -16,7 +16,7 @@
     
     'version': '0.1',
     
-    'depends': ['base'],
+    'depends': ['approvals'],
     
     'license' : 'OPL-1',
     'data': [
@@ -25,6 +25,8 @@
         'views/volenteers_menuitems.xml',
         'views/task_views.xml',
         'views/volunteer_views.xml',
+        'views/aproval_request_inherith.xml',
+        'wizards/task_wizard_view.xml',
     ],
     
    'demo': [

@@ -39,6 +39,12 @@ class Task(models.Model):
     volunteer_ids = fields.Many2many(comodel_name='volunteer.volunteer',
                                     string='Volunteer')
 
+    request_approvals_id = fields.One2many(comodel_name='approval.request',
+                                    inverse_name='task_id',
+                                    string='Request aprobals')
+    
+
+
     @api.onchange('leader')
     def _onchanchange_leader(self):
         if(self.leader == ''):

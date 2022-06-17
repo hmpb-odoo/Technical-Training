@@ -12,6 +12,9 @@
                             <group>
                                 <field name="volunteer_id"/>
                             </group>
+                            <group>
+                                <field name="tasks_ids"/>
+                            </group>
                         </group>
                         </sheet>
                     </form>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>"
+        <record model="ir.ui.view" id="view_request_form_inherit_volunteer">
+            <field name="name">aproval.request.form.inherit.volunteer</field>
+            <field name="model">approval.request</field>
+            <field name="inherit_id" ref="approvals.approval_request_view_form"/> 
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='amount']" position="after">
+                    <field name="task_id"/>
+                </xpath>
+                <field name="company_id" position="before">
+                    <field name="leader_id" attrs="{'invisible':[('task_id', '=', False)]}"/>
+                </field>
+                <xpath expr="//sheet//notebook" position="inside">
+                    <page string="volunteers" attrs="{'invisible':[('task_id', '=', False)]}">
+                        <field name="volunteer_ids">
+                            <tree>
+                                <field name="name"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </field>          
+        </record>
+    </data>
+</odoo>

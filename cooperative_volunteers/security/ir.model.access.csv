@@ -3,3 +3,4 @@ head_volunteer,head volunteer,model_volunteer_task,group_head_volunteer,1,1,1,1
 volunteer,volunteer,model_volunteer_task,,1,1,1,1
 volunteer_admin,volunter volunteer_admin,model_volunteer_volunteer,group_head_volunteer,1,1,1,1
 volunteer_read_all,volunter read all,model_volunteer_volunteer,,1,0,0,0
+volunteer_wizard,volunter wizard,model_volunteer_wizard,,1,1,1,1
