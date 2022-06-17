@@ -71,5 +71,15 @@
                 color="leader"/>
             </field>
         </record>
+
+         <record id="task_report" model="ir.actions.report">
+            <field name="name">Task Report</field>
+            <field name="model">volunteer.task</field>
+            <field name="report_type">qweb-html</field>
+            <field name="report_name">cooperative_volunteers.report_task_document</field>
+            <field name="report_file">cooperative_volunteers.report_task</field>
+            <field name="binding_model_id" ref="model_volunteer_task"/>
+            <field name="binding_type">report</field>
+        </record>
     </data>
 </odoo>

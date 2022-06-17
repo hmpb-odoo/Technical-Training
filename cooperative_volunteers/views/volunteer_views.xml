@@ -30,5 +30,15 @@
                 </tree>
             </field>
         </record>
+
+        <record id="volunteer_report" model="ir.actions.report">
+            <field name="name">Volunteer Report</field>
+            <field name="model">volunteer.volunteer</field>
+            <field name="report_type">qweb-html</field>
+            <field name="report_name">cooperative_volunteers.report_volunteer_document</field>
+            <field name="report_file">cooperative_volunteers.volunteer_task</field>
+            <field name="binding_model_id" ref="model_volunteer_volunteer"/>
+            <field name="binding_type">report</field>
+        </record>
     </data>
 </odoo>

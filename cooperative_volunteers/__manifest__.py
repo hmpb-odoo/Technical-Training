@@ -27,6 +27,8 @@
         'views/volunteer_views.xml',
         'views/aproval_request_inherith.xml',
         'wizards/task_wizard_view.xml',
+        'reports/tasks_report_templates.xml',
+        'reports/volunteers_report_templates.xml',
     ],
     
    'demo': [
