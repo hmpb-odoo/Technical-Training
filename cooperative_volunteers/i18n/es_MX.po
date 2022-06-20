@@ -1,0 +1,406 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cooperative_volunteers
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-17 19:48+0000\n"
+"PO-Revision-Date: 2022-06-17 19:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+msgid "<strong>Description:</strong>"
+msgstr "Descripcion"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+msgid "<strong>End Date:</strong>"
+msgstr "Fecha de termino"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+msgid "<strong>Leader:</strong>"
+msgstr "Lider"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+msgid "<strong>Start Date:</strong>"
+msgstr "Fecha de inicio"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+msgid "<strong>Task Duration:</strong>"
+msgstr "Duracion"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteers_website
+msgid "<strong>Tasks</strong>"
+msgstr "Tareas"
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__active
+msgid "Active"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_task_wizard_view
+msgid "Add Task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.actions.act_window,name:cooperative_volunteers.launch_sale_wizard
+msgid "Add task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_task_wizard_view
+msgid "Add task for a volunteer"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model,name:cooperative_volunteers.model_approval_request
+msgid "Approval Request"
+msgstr "Solicitud de aprobación"
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_task_wizard_view
+msgid "Cancel"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteers_website
+msgid "Cooperative"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.actions.act_window,help:cooperative_volunteers.task_list_action
+msgid "Create the first task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.actions.act_window,help:cooperative_volunteers.volunteers_list_action
+msgid "Create the first volunteer"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__create_uid
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__create_uid
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__create_date
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__create_date
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__daily
+msgid "Daily"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__description
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_volunteer_document
+msgid "Description"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__display_name
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__display_name
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__state__done
+msgid "Done"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_volunteer_document
+msgid "End Date"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__end_date
+msgid "End date"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__frecuency
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_volunteer_document
+msgid "Frecuency"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__id
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__id
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__state__in_progress
+msgid "In progress"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task____last_update
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer____last_update
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+msgid "Last Modified:"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__write_uid
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__write_uid
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__write_date
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__write_date
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteers_website
+msgid "Last modified:"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: code:addons/cooperative_volunteers/models/task.py:0
+#, python-format
+msgid "Leader is required"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_approval_request__leader_id
+msgid "Leader task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+msgid "Name"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__never
+msgid "Never"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteers_website
+msgid "No tasks assigned"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__once_a_month
+msgid "Once a month"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__once_a_week
+msgid "Once a week"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__state__ready
+msgid "Ready"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_approval_request__task_id
+msgid "Related task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__request_approvals_id
+msgid "Request aprobals"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_volunteer_document
+msgid "Start Date"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__start_date
+msgid "Start date"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__state
+msgid "State"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.actions.act_window,name:cooperative_volunteers.task_list_action
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__name
+msgid "Task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_view_list
+msgid "Task List"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.actions.report,name:cooperative_volunteers.task_report
+msgid "Task Report"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_view_form
+msgid "Task form"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model,name:cooperative_volunteers.model_volunteer_task
+msgid "Task info"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__tasks_ids
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__volunteers_tasks_id
+#: model:ir.ui.menu,name:cooperative_volunteers.menu_tasks_task
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_volunteer_document
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+msgid "Tasks"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__tasks_id
+msgid "Tasks abiables"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__twice_a_month
+msgid "Twice a month"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields.selection,name:cooperative_volunteers.selection__volunteer_task__frecuency__twice_a_week
+msgid "Twice a week"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__volunteer_ids
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__volunteer_id
+msgid "Volunteer"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:res.groups,name:cooperative_volunteers.group_head_volunteer
+msgid "Volunteer / Head"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_viwe_lis
+msgid "Volunteer List"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.actions.report,name:cooperative_volunteers.volunteer_report
+msgid "Volunteer Report"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_viwe_form
+msgid "Volunteer form"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model,name:cooperative_volunteers.model_volunteer_volunteer
+msgid "Volunteer info"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_volunteer__name
+msgid "Volunteer_name"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_approval_request__volunteer_ids
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_wizard__volunteers_ids
+#: model:ir.ui.menu,name:cooperative_volunteers.menu_volunteer_volunteer
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_website
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteers_website
+msgid "Volunteers"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.ui.menu,name:cooperative_volunteers.menu_tasks
+msgid "Volunteers Task"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model,name:cooperative_volunteers.model_volunteer_wizard
+msgid "Wizard: Quick add task for volunteer"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_view_form
+msgid "description"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.model.fields,field_description:cooperative_volunteers.field_volunteer_task__leader
+msgid "leader"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.volunteer_task_wizard_view
+msgid "or"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_view_form
+msgid "requests"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.report_task_document
+msgid "to"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.actions.act_window,name:cooperative_volunteers.volunteers_list_action
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.task_view_form
+msgid "volunteer"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model_terms:ir.ui.view,arch_db:cooperative_volunteers.view_request_form_inherit_volunteer
+msgid "volunteers"
+msgstr ""
+
+#. module: cooperative_volunteers
+#: model:ir.ui.menu,name:cooperative_volunteers.menu_task_sub
+msgid "volunteers task"
+msgstr ""

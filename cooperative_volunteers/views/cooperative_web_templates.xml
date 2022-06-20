@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="volunteers_website">
+            <t t-call="website.layout">
+                <t t-set="title">Cooperative</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <h1>Volunteers</h1>
+                        <t t-foreach="volunteers" t-as="volunteer">
+                            <h3>
+                                <t t-esc="volunteer.name"/>
+                            </h3>
+
+                            <strong>Tasks</strong>
+                            <t t-foreach="volunteer.tasks_ids" t-as="task">
+                                <p>
+                                    <a t-attf-href="/cooperative/{{slug(task)}}">
+                                        <t t-esc="task.name"/>
+                                    </a>
+                                </p>
+                                <p>Last modified:
+                                    <t t-esc="task.write_date" t-field-options='{"format": "long"}'/>
+                                </p>
+                            </t>
+                            <t t-if="not volunteer.tasks_ids">
+                                <p>No tasks assigned</p>
+                            </t>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="task_website">
+            <t t-call="website.layout">
+                <t t-set="title">Tasks</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <h3 t-field="task.name"/>
+                        <p>
+                            <t t-if="task.description">
+                                <t t-esc="task.description"/>
+                            </t>
+                        </p>
+                        <p>Last Modified:
+                            <t t-esc="task.write_date" t-field-options='{"format": "long"}'/>
+                        </p>
+                        <p>
+                            <t t-if="task.leader">
+                                <strong>Leader:</strong>
+                                <t t-esc="task.leader.name"/>
+                            </t>
+                        </p>
+                        <p>
+                            <t t-if="task.start_date">
+                                <strong>Start Date:</strong>
+                                <t t-esc="task.start_date"/>
+                            </t>
+                            <t t-if="task.end_date">
+                                <strong>End Date:</strong>
+                                <t t-esc="task.end_date"/>
+                            </t>
+                        </p>
+                        <h3 class="mt32">Volunteers</h3>
+                        <ul>
+                            <t t-foreach="task.volunteer_ids" t-as="volunteer">
+                                <li>
+                                    <t t-esc="volunteer.name"/>
+                                </li>
+                            </t>
+                        </ul>
+                    </div>
+                </div>
+            </t> 
+        </template>
+    </data>
+</odoo>

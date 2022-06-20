@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from unittest.loader import VALID_MODULE_NAME
-from odoo import models, fields, api
+from odoo import models, fields, api,_
 from odoo.exceptions import UserError, ValidationError
 
 class Task(models.Model):
@@ -48,7 +48,7 @@ class Task(models.Model):
     @api.onchange('leader')
     def _onchanchange_leader(self):
         if(self.leader == ''):
-            raise UserError('Leader is required')
+            raise UserError(_('Leader is required'))
         self.state = 'done'
 
 
